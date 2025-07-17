@@ -1,0 +1,61 @@
+import { Flight } from '../types/flight'
+
+export const mockFlights: Flight[] = [
+  {
+    id: 'flight-1',
+    userId: 'user-1',
+    flightNumber: 'AA1234',
+    airline: 'American Airlines',
+    departureAirport: 'JFK',
+    arrivalAirport: 'LAX',
+    departureTime: '14:30',
+    arrivalTime: '17:45',
+    departureDate: '2024-01-20',
+    arrivalDate: '2024-01-20',
+    gate: 'A12',
+    terminal: '4',
+    seat: '12A',
+    status: 'boarding',
+    bookingReference: 'ABC123',
+    passengerName: 'John Doe',
+    createdAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    id: 'flight-2',
+    userId: 'user-1',
+    flightNumber: 'DL5678',
+    airline: 'Delta Air Lines',
+    departureAirport: 'LAX',
+    arrivalAirport: 'JFK',
+    departureTime: '09:15',
+    arrivalTime: '17:30',
+    departureDate: '2024-01-25',
+    arrivalDate: '2024-01-25',
+    gate: 'B8',
+    terminal: '2',
+    seat: '8C',
+    status: 'scheduled',
+    bookingReference: 'DEF456',
+    passengerName: 'John Doe',
+    createdAt: '2024-01-15T10:00:00Z'
+  },
+  {
+    id: 'flight-3',
+    userId: 'user-1',
+    flightNumber: 'UA9012',
+    airline: 'United Airlines',
+    departureAirport: 'ORD',
+    arrivalAirport: 'SFO',
+    departureTime: '11:20',
+    arrivalTime: '13:45',
+    departureDate: '2024-01-22',
+    arrivalDate: '2024-01-22',
+    gate: 'C15',
+    terminal: '1',
+    seat: '15F',
+    status: 'delayed',
+    bookingReference: 'GHI789',
+    passengerName: 'John Doe',
+    createdAt: '2024-01-15T10:00:00Z'
+  }
+]
